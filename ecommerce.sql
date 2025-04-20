@@ -1,6 +1,3 @@
-SELECT *
-FROM product_category;
-
 -- creating the database
 CREATE DATABASE e_commerce;
 
@@ -289,3 +286,5 @@ INSERT INTO product_attribute (attribute_id, product_id, attr_category_id, attr_
 (8, 8, 7, 3, 'Wattage', '300.00'),
 (9, 9, 2, 1, 'Shell Fabric', '100% Nylon');
 
+SELECT *
+FROM product_category;
