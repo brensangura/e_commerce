@@ -1,5 +1,7 @@
+-- creating the database
 CREATE DATABASE e_commerce;
 
+-- making sure I am on the right database
 USE e_commerce;
 
 -- Brand table (companies that make products)
@@ -155,7 +157,7 @@ INSERT INTO size_category (size_category_id, category_name) VALUES
 SELECT * FROM size_category;
 
 
--- 4. Insert data into size_option table
+-- 4. Insert data into the size_option table
 INSERT INTO size_option (size_id, size_category_id, size_value) VALUES
 (1, 1, 'S'),
 (2, 1, 'M'),
