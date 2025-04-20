@@ -1,3 +1,6 @@
+SELECT *
+FROM product_category;
+
 -- creating the database
 CREATE DATABASE e_commerce;
 
